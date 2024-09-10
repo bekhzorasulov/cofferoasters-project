@@ -177,10 +177,6 @@ body {
   color: #333d4b;
 }
 
-.hero-container {
-  margin-top: 4.3rem;
-}
-
 .navbar-toggle {
   display: none;
 }
@@ -208,10 +204,6 @@ body {
     cursor: pointer;
   }
 }
-.about-container {
-  background-image: url(.../images/about/desktop/image-hero-whitecup.jpg);
-}
-
 .hero-container {
   margin-top: 4.3rem;
   background-image: url(../images/home/desktop/image-hero-coffeepress.jpg);
