@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cofferoasters</title>
     <link rel="stylesheet" href="./css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__container container">
-            <a class="site-logo" href="./index.html"><img class="site-logo__image" src="./images/shared/desktop/logo.svg" alt="Cofferoasters" width="236" height="26" /></a>
-            <nav class="sitenav">
-                <ul class="sitenav__list">
-                    <li class="sitenav__item">
-                        <a class="sitenav__link" href="./index.html">home</a>
-                    </li>
-                    <li class="sitenav__item">
-                        <a class="sitenav__link" href="./pages/about.html">about us</a>
-                    </li>
-                    <li class="sitenav__item">
-                        <a class="sitenav__link" href="./pages/plan.html">creat your plan</a
+      <div class="header__container container">
+        <a class="site-logo" href="./index.html"
+          ><img
+            class="site-logo__image"
+            src="./images/shared/desktop/logo.svg"
+            alt="Cofferoasters"
+            width="236"
+            height="26"
+        /></a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./index.html">home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./pages/about.html">about us</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./pages/plan.html"
+                >creat your plan</a
               >
             </li>
           </ul>
@@ -44,21 +51,175 @@
             curated artisan coffees from our best roasters delivered directly to
             your door, at your schedule.
           </p>
-          <a class="hero-btn" href="#">Create your plan</a>
+          <a class="hero-btn" href="./pages/plan.html">Create your plan</a>
         </div>
-        </div>
+      </div>
     </header>
+    <main>
+      <section>
+        <div class="collection__container container">
+          <picture>
+            <source
+              media="(max-width: 400px)"
+              srcset="./images/home/mobile/collection-mobile.png"
+            />
+            <source
+              media="(max-width: 768px)"
+              srcset="./images/home/tablet/collection-tablet.png"
+            />
+
+            <img
+              class="collection__container__img"
+              src="./images/home/desktop/cpllection.png"
+              alt=""
+            />
+          </picture>
+          <div class="collection__article">
+            <div class="colection__card">
+              <img
+                src="./images/home/desktop/image-gran-espresso.png"
+                alt="#"
+                width="255"
+                height="193"
+              />
+              <div class="collection__infobox">
+                <h3 class="collection__card__title">Gran Espresso</h3>
+                <p class="collection__card__description">
+                  Light and flavorful blend with cocoa and black pepper for an
+                  intense experience.
+                </p>
+              </div>
+            </div>
+            <div class="colection__card">
+              <img
+                src="./images/home/desktop/image-planalto.png"
+                alt="#"
+                width="255"
+                height="193"
+              />
+              <div class="collection__infobox">
+                <h3 class="collection__card__title">Planalto</h3>
+                <p class="collection__card__description">
+                  Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.
+                </p>
+              </div>
+            </div>
+            <div class="colection__card">
+              <img
+                src="./images/home/desktop/image-piccollo.png"
+                alt="#"
+                width="255"
+                height="193"
+              />
+              <div class="collection__infobox">
+                <h3 class="collection__card__title">Piccollo</h3>
+                <p class="collection__card__description">
+                  Mild and smooth blend featuring notes of toasted almond and
+                  dried cherry.
+                </p>
+              </div>
+            </div>
+            <div class="colection__card">
+              <img
+                src="./images/home/desktop/image-danche.png"
+                alt="#"
+                width="255"
+                height="193"
+              />
+              <div class="collection__infobox">
+                <h3 class="collection__card__title">Danche</h3>
+                <p class="collection__card__description">
+                  Ethiopian hand-harvested blend densely packed with vibrant
+                  fruit notes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="why__container container">
+          <div class="why__article">
+            <h3 class="why__article__title">Why choose us?</h3>
+            <p class="why__article__description">
+              A large part of our role is choosing which particular coffees will
+              be featured in our range. This means working closely with the best
+              coffee growers to give you a more impactful experience on every
+              level.
+            </p>
+          </div>
+          <div class="why__quality">
+            <div class="why__quality__card">
+              <img
+                class="why__quality__img"
+                src="./images/home/desktop/icon-coffee-bean.svg"
+                alt="coffee-bean"
+                width="72"
+                height="72"
+              />
+              <div class="why__quality__article">
+                <h4 class="why__quality__title">Best quality</h4>
+                <p class="why__quality__description">
+                  Discover an endless variety of the world’s best artisan coffee
+                  from each of our roasters.
+                </p>
+              </div>
+            </div>
+            <div class="why__quality__card">
+              <img
+                class="why__quality__img"
+                src="./images/home/desktop/icon-gift.svg"
+                alt="coffee-bean"
+                width="72"
+                height="72"
+              />
+              <div class="why__quality__article">
+                <h4 class="why__quality__title">Exclusive benefits</h4>
+                <p class="why__quality__description">
+                  Special offers and swag when you subscribe, including 30% off
+                  your first shipment.
+                </p>
+              </div>
+            </div>
+            <div class="why__quality__card">
+              <img
+                class="why__quality__img_fix"
+                src="./images/home/desktop/icon-truck.svg"
+                alt="coffee-bean"
+                width="72"
+                height="72"
+              />
+              <div class="why__quality__article">
+                <h4 class="why__quality__title">Free shipping</h4>
+                <p class="why__quality__description">
+                  We cover the cost and coffee is delivered fast. Peak
+                  freshness: guaranteed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
-        <div class="footer-container container">
-            <div class="footer-menu">
-                <a class="footer-logo" href="./index.html"><img src="./images/shared/desktop/Group 5.svg" alt="Cofferoasters" width="236" height="26" /></a>
-                <nav class="footernav">
-                    <ul class="footernav_list">
-                        <li class="footernav__item">
-                            <a class="footernav__link" href="./index.html">HOME</a>
-                        </li>
-                        <li class="footernav__item">
-                            <a class="footernav__link" href="./pages/about.html">ABOUT US</a
+      <div class="footer-container container">
+        <div class="footer-menu">
+          <a class="footer-logo" href="./index.html"
+            ><img
+              src="./images/shared/desktop/Group 5.svg"
+              alt="Cofferoasters"
+              width="236"
+              height="26"
+          /></a>
+          <nav class="footernav">
+            <ul class="footernav_list">
+              <li class="footernav__item">
+                <a class="footernav__link" href="./index.html">HOME</a>
+              </li>
+              <li class="footernav__item">
+                <a class="footernav__link" href="./pages/about.html"
+                  >ABOUT US</a
                 >
               </li>
               <li class="footernav__item">
@@ -75,11 +236,16 @@
               src="./images/shared/desktop/icon-facebook.svg"
               alt="facebook"
           /></a>
-                            <a href="#"><img src="./images/shared/desktop/icon-twitter.svg" alt="twitter" /></a>
-                            <a href="#"><img src="./images/shared/desktop/icon-instagram.svg" alt="instagram" /></a>
-            </div>
+          <a href="#"
+            ><img src="./images/shared/desktop/icon-twitter.svg" alt="twitter"
+          /></a>
+          <a href="#"
+            ><img
+              src="./images/shared/desktop/icon-instagram.svg"
+              alt="instagram"
+          /></a>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
