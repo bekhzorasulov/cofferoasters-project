@@ -176,7 +176,7 @@ main {
   letter-spacing: 0.1rem;
 }
 .sitenav__link:hover {
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 .navbar-toggle {
@@ -253,7 +253,7 @@ main {
 
 .colection__card {
   text-align: center;
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 .collection__card__title {
@@ -273,7 +273,7 @@ main {
 .why__container {
   margin-top: 20rem;
   background-image: url(../images/plan/desktop/bg-steps.png);
-  background-color: #333d4b;
+  background-color: hwb(215 20% 71%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -400,7 +400,7 @@ main {
   font-weight: 900;
   font-size: 3.2rem;
   line-height: 1.125;
-  color: #333d4b;
+  color: hwb(215 20% 71%);
   width: 25.5rem;
 }
 
@@ -544,7 +544,7 @@ main {
   }
   .colection__card {
     text-align: center;
-    color: #333d4b;
+    color: hwb(215 20% 71%);
     max-width: 57.3rem;
     display: flex;
     flex-direction: column;
@@ -684,7 +684,7 @@ main {
   font-size: 4rem;
   font-weight: 900;
   line-height: 1.2;
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 .commit__description {
@@ -695,7 +695,7 @@ main {
 .quality__container {
   margin-top: 25.6rem;
   background-image: url(../images/plan/desktop/bg-steps.png);
-  background-color: #333d4b;
+  background-color: hwb(215 20% 71%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -764,15 +764,15 @@ main {
   font-weight: 900;
   font-size: 3.2rem;
   line-height: 1.125;
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 .country__address {
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 .country__number {
-  color: #333d4b;
+  color: hwb(215 20% 71%);
 }
 
 @media screen and (max-width: 768px) {
@@ -868,10 +868,10 @@ main {
     line-height: 1.5;
   }
   .country__address {
-    color: #333d4b;
+    color: hwb(215 20% 71%);
   }
   .country__number {
-    color: #333d4b;
+    color: hwb(215 20% 71%);
   }
 }
 @media screen and (max-width: 400px) {
@@ -1021,7 +1021,7 @@ main {
 .pickbox__container {
   margin-top: 16.8rem;
   background-image: url(../images/plan/desktop/bg-steps.png);
-  background-color: #333d4b;
+  background-color: hwb(215 20% 71%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1049,7 +1049,7 @@ main {
   background-color: #fff;
   border: 2px solid #0e8784;
   border-radius: 50%;
-  background-color: #333d4b;
+  background-color: hwb(215 20% 71%);
 }
 
 .pickbox__article {
