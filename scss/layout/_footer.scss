@@ -37,8 +37,8 @@
   gap: 2.4rem;
 }
 
-.media a:hover {
-  background-color: pink;
+.media__icon:hover path {
+  fill: $pale-orange;
 }
 
 @media screen and (max-width: 768px) {

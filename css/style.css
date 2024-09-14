@@ -126,8 +126,8 @@ main {
   gap: 2.4rem;
 }
 
-.media a:hover {
-  background-color: pink;
+.media__icon:hover path {
+  fill: #fdd6ba;
 }
 
 @media screen and (max-width: 768px) {
@@ -655,6 +655,126 @@ main {
   width: 44.5rem;
 }
 
+.commit__container {
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  margin-top: 12.5rem;
+  margin-bottom: 20rem;
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+}
+
+.commit__picture {
+  width: 44.5rem;
+  height: 52rem;
+  background-image: url(../images/about/desktop/image-commitment.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.commit__article {
+  width: 54rem;
+}
+
+.commit__title {
+  font-family: "Fraunces", cursive;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #333d4b;
+}
+
+.commit__description {
+  margin-top: 3.2rem;
+  opacity: 0.8;
+}
+
+.quality__container {
+  margin-top: 25.6rem;
+  background-image: url(../images/plan/desktop/bg-steps.png);
+  background-color: #333d4b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  height: 47.4rem;
+}
+
+.quality__infobox {
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  padding: 0 8.5rem;
+}
+
+.quality__article {
+  width: 54rem;
+  color: #fefcf7;
+}
+
+.quality__title {
+  font-family: "Fraunces", cursive;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.quality__description {
+  margin-top: 3.2rem;
+  opacity: 0.8;
+}
+
+.quality__picture__img {
+  border-radius: 1rem;
+  margin-top: -9rem;
+}
+
+.location__container {
+  margin-top: 16.8rem;
+  padding-left: 8.5rem;
+  padding-right: 15rem;
+}
+
+.location__title {
+  margin-bottom: 7.2rem;
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 1.3;
+  color: #83888f;
+}
+
+.country__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 9.5rem;
+  margin-bottom: 16.8rem;
+}
+
+.country__map {
+  margin-bottom: 4.6rem;
+}
+
+.country_name {
+  margin-bottom: 2.4rem;
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.125;
+  color: #333d4b;
+}
+
+.country__address {
+  color: #333d4b;
+}
+
+.country__number {
+  color: #333d4b;
+}
+
 @media screen and (max-width: 768px) {
   .about-container {
     background-image: url(../images/about/tablet/image-hero-whitecup.jpg);
@@ -678,6 +798,81 @@ main {
     line-height: 1.6;
     width: 39.8rem;
   }
+  .commit__container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 14.4rem;
+    gap: 1.9rem;
+  }
+  .commit__picture {
+    width: 28.1rem;
+    height: 47rem;
+    background-image: url(../images/about/tablet/image-commitment.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .commit__article {
+    width: 33.9rem;
+  }
+  .commit__title {
+    font-size: 3rem;
+  }
+  .commit__description {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-top: 3rem;
+    opacity: 0.8;
+  }
+  .quality__infobox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 6.4rem;
+    padding: 0 8.8rem;
+  }
+  .quality__picture__img {
+    margin-top: -17rem;
+  }
+  .quality__article {
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .quality__title {
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+  .quality__description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 2.4rem;
+    opacity: 0.8;
+  }
+  .location__container {
+    margin-top: 14.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .country__box {
+    grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 14.4rem;
+  }
+  .country__map {
+    margin-bottom: 4.8rem;
+  }
+  .country_name {
+    margin-bottom: 2.1rem;
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  .country__address {
+    color: #333d4b;
+  }
+  .country__number {
+    color: #333d4b;
+  }
 }
 @media screen and (max-width: 400px) {
   .about-container {
@@ -689,9 +884,12 @@ main {
     margin-top: 4rem;
   }
   .about-article {
-    padding: 11.1rem 2.4rem;
+    padding: 11.1rem 0.4rem 8.7rem 0.4rem;
     text-align: center;
     width: 27.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .about-article h1 {
     font-size: 2.8rem;
@@ -701,6 +899,90 @@ main {
     font-size: 1.5rem;
     line-height: 1.6;
     width: 27.9rem;
+  }
+  .commit__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 12rem;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .commit__picture {
+    width: 32.7rem;
+    height: 40rem;
+    background-image: url(../images/about/mobile/image-commitment.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+  }
+  .commit__article {
+    text-align: center;
+    width: 32.7rem;
+  }
+  .quality__container {
+    margin-top: 19.8rem;
+    height: 50.9rem;
+  }
+  .quality__infobox {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 6.4rem;
+    padding: 0 4rem;
+  }
+  .quality__picture__img {
+    margin-top: -8rem;
+    width: 30rem;
+  }
+  .quality__article {
+    margin-left: 1rem;
+    width: 27.9rem;
+    text-align: center;
+  }
+  .quality__title {
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+  .quality__description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-top: 2.4rem;
+    opacity: 0.8;
+  }
+  .location__container {
+    margin-top: 14.4rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .country__box {
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 12rem;
+    text-align: center;
+  }
+  .country__map {
+    padding-left: 14.2rem;
+    padding-right: 14.2rem;
+    margin-bottom: 4.8rem;
+  }
+  .country_name {
+    margin-bottom: 2.2rem;
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 390px) {
+  .about-article {
+    padding: 11.1rem 0.1rem 8.7rem 2.8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-article {
+    padding: 11.1rem 0.4rem 8.7rem 1.8rem;
   }
 }
 .plan-container {
@@ -736,6 +1018,70 @@ main {
   max-width: 40rem;
 }
 
+.pickbox__container {
+  margin-top: 16.8rem;
+  background-image: url(../images/plan/desktop/bg-steps.png);
+  background-color: #333d4b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.pickbox__info {
+  padding: 10rem 15rem 9.9rem 8.5rem;
+}
+
+.pickbox__line {
+  max-width: 104.5rem;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2px;
+  background-color: #fdd6ba;
+}
+
+.pickbox__line span {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  background-color: #fff;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+  background-color: #333d4b;
+}
+
+.pickbox__article {
+  margin-top: 8.2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  gap: 9.5rem;
+}
+
+.pickbox__card__number {
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 7.2rem;
+  line-height: 1;
+  color: #fdd6ba;
+}
+
+.pickbox__card__title {
+  margin-top: 3.2rem;
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.125;
+  color: #fefcf7;
+  width: 25.5rem;
+}
+
+.pickbox__card__description {
+  margin-top: 4.2rem;
+  color: #fefcf7;
+}
+
 @media screen and (max-width: 768px) {
   .plan-container {
     background-image: url(../images/plan/tablet/image-hero-blackcup.jpg);
@@ -754,6 +1100,31 @@ main {
     font-size: 1.5rem;
     line-height: 1.66;
     max-width: 39.8rem;
+  }
+  .pickbox__container {
+    margin-top: 14.4rem;
+  }
+  .pickbox__info {
+    padding: 9.7rem 2rem 7rem 2rem;
+  }
+  .pickbox__article {
+    margin-top: 4.8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+    gap: 0.5rem;
+  }
+  .pickbox__card__title {
+    margin-top: 4.2rem;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    width: 22.3rem;
+  }
+  .pickbox__card__description {
+    margin-top: 3.8rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    width: 22.3rem;
+    color: #fefcf7;
   }
 }
 @media screen and (max-width: 400px) {
@@ -776,5 +1147,34 @@ main {
     font-size: 1.5rem;
     line-height: 1.6;
     width: 27.9rem;
+  }
+  .pickbox__line {
+    display: none;
+  }
+  .pickbox__container {
+    margin-top: 12rem;
+  }
+  .pickbox__info {
+    padding: 8rem 2.4rem 7.9rem 2.4rem;
+  }
+  .pickbox__article {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5.6rem;
+  }
+  .pickbox__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .pickbox__card__title {
+    margin-top: 2.4rem;
+    width: 32.7rem;
+  }
+  .pickbox__card__description {
+    margin-top: 2.4rem;
+    width: 32.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
