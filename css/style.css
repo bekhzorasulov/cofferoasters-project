@@ -1130,6 +1130,7 @@ main {
 .order__question {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 8.8rem;
 }
 
@@ -1224,7 +1225,7 @@ main {
 }
 
 .plan__box {
-  text-align: end;
+  align-self: end;
   margin-bottom: 16.8rem;
 }
 
@@ -1271,6 +1272,26 @@ main {
     line-height: 1.6;
     width: 22.3rem;
     color: #fefcf7;
+  }
+  .order__type {
+    display: none;
+  }
+  .order__container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .order__question {
+    gap: 10rem;
+  }
+  .order__question__box {
+    width: 68.9rem;
+  }
+  .order__question__article {
+    margin-bottom: 4rem;
+  }
+  .order__question__card {
+    grid-template-columns: repeat(auto-fit, minmax(223px, 1fr));
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 400px) {
