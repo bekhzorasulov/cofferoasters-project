@@ -1082,6 +1082,152 @@ main {
   color: #fefcf7;
 }
 
+.order__container {
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
+  margin-top: 16.8rem;
+  display: flex;
+  gap: 12.5rem;
+}
+
+.order__type {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4.9rem;
+}
+
+.order__type__card {
+  display: flex;
+  align-items: center;
+  gap: 2.85rem;
+}
+
+.order__type__number {
+  font-family: "Fraunces", cursive;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1.6;
+  color: #83888f;
+  cursor: pointer;
+}
+.order__type__number:hover {
+  color: #0e8784;
+}
+
+.order__type__name {
+  font-family: "Fraunces", cursive;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1.6;
+  color: #83888f;
+  cursor: pointer;
+}
+.order__type__name:hover {
+  color: hwb(215 20% 71%);
+}
+
+.order__question {
+  display: flex;
+  flex-direction: column;
+  gap: 8.8rem;
+}
+
+.order__question__box {
+  width: 73rem;
+}
+
+.order__question__article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.6rem;
+}
+
+.order__question__how {
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.2;
+  color: #83888f;
+}
+
+.order__question__btn {
+  background-color: #fefcf7;
+  cursor: pointer;
+  border: none;
+}
+
+.order__question__card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(228px, 1fr));
+  gap: 2.3rem;
+}
+
+.order__question__choose {
+  color: hwb(215 20% 71%);
+  background-color: #f4f1eb;
+  padding: 3.2rem 2.8rem 8.4rem 2.8rem;
+  border-radius: 1rem;
+}
+.order__question__choose:hover {
+  color: #fefcf7;
+  background-color: #0e8784;
+}
+
+.order__question__title {
+  width: 17.2rem;
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 1.3;
+  margin-bottom: 2.4rem;
+}
+
+.order__question__description {
+  width: 17.2rem;
+}
+
+.summery__box {
+  width: 73rem;
+  background-color: hwb(215 20% 71%);
+  background-image: url(../images/plan/desktop/bg-order-summary.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.summery__card {
+  padding: 2.7rem 6.4rem;
+}
+
+.summery__title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #ffffff;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.summery__description {
+  font-family: "Fraunces", cursive;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 1.6;
+  color: #fefcf7;
+}
+
+.summery__active {
+  color: #0e8784;
+}
+
+.plan__box {
+  text-align: end;
+  margin-bottom: 16.8rem;
+}
+
 @media screen and (max-width: 768px) {
   .plan-container {
     background-image: url(../images/plan/tablet/image-hero-blackcup.jpg);
