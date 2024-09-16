@@ -1172,8 +1172,7 @@ main {
   border-radius: 1rem;
 }
 .order__question__choose:hover {
-  color: #fefcf7;
-  background-color: #0e8784;
+  background-color: #fdd6ba;
 }
 
 .order__question__title {
@@ -1353,5 +1352,52 @@ main {
   .pickbox__card__description {
     margin-top: 2.4rem;
     width: 32.7rem;
+  }
+  .order__container {
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+  }
+  .order__question__description {
+    width: 27.8rem;
+  }
+  .order__question__how {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    width: 24rem;
+  }
+  .order__question__card {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+  .order__question__choose {
+    padding: 2.4rem 2.5rem;
+  }
+  .order__question__box {
+    width: 32.8rem;
+  }
+  .order__question {
+    align-items: flex-start;
+  }
+  .summery__card {
+    padding: 2.4rem 3.2rem;
+  }
+  .summery__box {
+    width: 32.8rem;
+  }
+  .plan__box {
+    align-self: center;
+    margin-bottom: 5.6rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .order__container {
+    padding-left: 3.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .order__container {
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
